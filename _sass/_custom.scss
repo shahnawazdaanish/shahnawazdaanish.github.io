@@ -2,7 +2,6 @@
  * Custom styles for the portfolio website.
  ******************************************************************************/
 
-
 // Skills Section
 .skills-section {
   display: grid;
@@ -17,7 +16,9 @@
   background: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
   text-align: center;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .skill-box:hover {
@@ -98,7 +99,9 @@
   color: var(--global-theme-color);
   font-weight: 500;
   text-decoration: none;
-  transition: background 0.2s ease, color 0.2s ease;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
 }
 
 .hero-button:hover {
@@ -117,7 +120,6 @@
   color: var(--global-text-color);
 }
 
-
 // Responsive adjustments
 @media (max-width: 768px) {
   .hero-academic {
@@ -130,4 +132,3 @@
     height: 140px;
   }
 }
-
