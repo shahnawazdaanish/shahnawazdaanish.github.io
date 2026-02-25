@@ -1,13 +1,14 @@
 ---
-layout: about
+layout: about_myself
 title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: rhino.png
+  image_circular: true # crops the image to make it circular
+  affiliation: Research Assistant at <span>Process and Systems Engineering Lab</span>,<br/><span>Åbo Akademi University</span>.
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
@@ -15,6 +16,10 @@ profile:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+skill_realms:
+  enabled: true
+  limit: 3
 
 announcements:
   enabled: true # includes a list of news items

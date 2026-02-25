@@ -1,0 +1,11 @@
+- title: Machine Learning
+  icon: fas fa-microchip
+  description: Python, Scikit-learn, TensorFlow, Gaussian Processes
+
+- title: Backend & APIs
+  icon: fas fa-server
+  description: Node.js, Express, REST APIs, Firebase
+
+- title: Design & Tools
+  icon: fas fa-pen-nib
+  description: Figma, Git, GitHub, UI/UX
